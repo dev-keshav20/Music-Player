@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+  <h1>🎶 Search & Play Music</h1>
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search for a song...">
+  </div>
+
+  <div class="results" id="results"></div>
+
+  <div class="now-playing" id="nowPlayingCard">
+    <img src="" id="nowPlayingImg" alt="Cover">
+    <h3 id="nowPlayingTitle">Song Name</h3>
+    <p id="nowPlayingArtist">Artist Name</p>
+  </div>
+
+  <audio controls id="audioPlayer"></audio>
+
+  <div class="history" id="history"></div>
+
+  <div class="credit">Made by Keshav Tanwar</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
